@@ -38,14 +38,14 @@ export default function Header() {
             {/* Login / Signup Buttons */}
             <div className="flex flex-col gap-3 px-8 mt-35">
               <Link
-                href="/login"
+                href="/auth/login"
                 className="w-full text-center py-2.5 px-4 bg-[#ff6363] text-white  rounded-lg font-bold"
                 onClick={() => setOpen(false)}
               >
                 Log In
               </Link>
               <Link
-                href="/signup"
+                href="/auth/signup"
                 className="w-full text-center py-2.5 px-4  bg-gray-100 rounded-lg "
                 onClick={() => setOpen(false)}
               >
